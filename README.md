@@ -29,7 +29,7 @@ request body application/json
 }
 ```
 
-### POST Обновить контакт по id
+### PUT Обновить контакт по id
 ```
 https://profitclicksapi.azurewebsites.net/api/user/id
 request body application/json
