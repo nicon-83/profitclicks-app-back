@@ -8,7 +8,7 @@ https://github.com/nicon-83/profitclicks-app-front.git
 # База данных Postgresql на хостинге ElephantSQL
 https://customer.elephantsql.com
 
-## GET Получить все контакты 
+### GET Получить все контакты 
 ```
 https://profitclicksapi.azurewebsites.net/api/user
 ```
@@ -45,7 +45,7 @@ request body application/json
 https://profitclicksapi.azurewebsites.net/api/user/id
 ```
 
-### POST Добавить контакту новый номер 
+### POST Добавить новый номер контакту
 ```
 https://profitclicksapi.azurewebsites.net/api/phone
 request body application/json
@@ -55,7 +55,7 @@ request body application/json
 }
 ```
 
-### DELETE Удалить номер у контакта
+### DELETE Удалить номер по его id
 ```
 https://profitclicksapi.azurewebsites.net/api/phone/id
 ```
