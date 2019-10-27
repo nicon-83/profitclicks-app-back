@@ -1,6 +1,6 @@
 # profitclicks-app REST API
-опубликовано на Azure
-https://profitclicksapi.azurewebsites.net
+опубликовано на Heroku
+https://profit-clicks.herokuapp.com/
 
 # Frontend приложения
 https://github.com/nicon-83/profitclicks-app-front.git
@@ -10,17 +10,17 @@ https://customer.elephantsql.com
 
 ### GET Получить все контакты 
 ```
-https://profitclicksapi.azurewebsites.net/api/user
+https://profit-clicks.herokuapp.com/api/user
 ```
 
 ### GET Получить контакт по id 
 ```
-https://profitclicksapi.azurewebsites.net/api/user/id
+https://profit-clicks.herokuapp.com/api/user/id
 ```
 
 ### POST Добавить новый контакт 
 ```
-https://profitclicksapi.azurewebsites.net/api/user
+https://profit-clicks.herokuapp.com/api/user
 request body application/json
 {
 	"FirstName":"Иван",
@@ -31,7 +31,7 @@ request body application/json
 
 ### PUT Обновить контакт по id
 ```
-https://profitclicksapi.azurewebsites.net/api/user/id
+https://profit-clicks.herokuapp.com/api/user/id
 request body application/json
 {
 	"FirstName":"Иван",
@@ -42,12 +42,12 @@ request body application/json
 
 ### DELETE Удалить контакт по id 
 ```
-https://profitclicksapi.azurewebsites.net/api/user/id
+https://profit-clicks.herokuapp.com/api/user/id
 ```
 
 ### POST Добавить новый номер контакту
 ```
-https://profitclicksapi.azurewebsites.net/api/phone
+https://profit-clicks.herokuapp.com/api/phone
 request body application/json
 {
 	"UserId":"6",
@@ -57,7 +57,7 @@ request body application/json
 
 ### DELETE Удалить номер по его id
 ```
-https://profitclicksapi.azurewebsites.net/api/phone/id
+https://profit-clicks.herokuapp.com/api/phone/id
 ```
 
 
